@@ -1,0 +1,383 @@
+*
+{
+    margin: -1px;
+}
+a
+{
+    font-family: sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+.navigations:hover
+{
+    background-color:rgb(138, 138, 138) ;
+}
+#navigationdiv
+{
+    position: relative;
+    margin-top: 125px;
+    position: fixed;
+    background-color:#333333;
+    line-height: 45px;
+    width: 100vw;
+}
+.navigations
+{ 
+    font-size: 14.5px;
+    margin: 6px;
+    padding: 20px; 
+}
+/* -----------first page------------------------------------------ */
+#firstpage
+{
+    border: 1px solid black;
+    height: 120vh;
+    width: 100vw;
+}
+#firstheading
+{
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 300px;
+}
+#firstheadingbelowpara
+{
+    color: #FFFFFF;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+/* ------secondpage------------------------------ */
+#secondpageouterdiv
+{
+    display: flex;
+}
+#secondpage
+{
+    /* margin-top: 20px; */
+    color: #FFFFFF;
+    background-color: #252529;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    min-height: 110vh;
+    width: 100vw;
+    text-align: center;
+}
+#secondheading
+{
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+#secondheadingbelowpara1
+{
+    color: #FFFFFF;
+    font-family: sans-serif;
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: 2rem;
+    margin-top:35px ;
+}
+#secondheadingbelowpara2
+{
+    color: #FFFFFF;
+    font-family: sans-serif;
+    text-align: center;
+   /* margin-top: 10px; */
+   padding: 40px;
+   /* font-weight: bold; */
+   line-height: 1.6;
+font-size: 1.3rem;
+}
+#buttondiv
+{
+    text-align: center;
+}
+ #StartYourTrialNow
+{
+    background-color: #B90415;
+    border: none;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: sans-serif;
+    padding: 1rem;
+    width: 150px;
+    margin-top: -100px;
+    line-height: 1.6;
+} 
+#parabelowbutton
+{
+    color: #ffffff;
+    /* font-weight: bold; */
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.9;
+    padding: 2px;
+}
+
+/* --------thirdpage-------------------------- */
+#thirdpage
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    min-height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+#thirdpageheading
+{
+    margin: 70px;
+    font-weight: bold;
+   font-size:30px ;
+   font-family: sans-serif;
+
+}
+#thirdpagepara
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -50px;
+    padding: 40px;
+    /* font-weight: bold; */
+    line-height: 30px;
+}
+
+#thirdpagebutton
+{
+    text-align: center;
+}
+#thirdpagebutton
+{
+    margin-top: -25px;
+    border: none;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    background-color: #103063; 
+}
+
+/* ------------fourthpage------------------------------------- */
+#fourthpage
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    min-height: 100vh;
+    width: 100vw;
+    text-align: center;
+} 
+#fourthpagepara1
+ {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 200px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#paradiv2
+{
+    color: #FFFFFF;
+    text-align: center;
+}
+#fourthpagepara2
+{
+    font-family: sans-serif;
+    color: #FFFFFF;  
+    text-align: center;
+    margin: 30px 69px 69px 69px;
+    line-height: 1.6;
+    font-size: 1.3rem;
+
+}
+/* ----------fifthpage-------------------------- */
+#fifthpageimagediv
+{
+    display: flex;
+    flex-direction: row;
+    /* height: 90vh;
+    width: 100vw;  */
+    /* justify-content: space-around; */
+}
+#fifthpageouterdiv
+{
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+}
+#fifthpageimage
+{
+    margin-top: 30px;
+    margin-left: 40px;
+    /* position: relative; */
+    /* margin-top: 90px ; */
+    width: 580px;
+    height:394px;
+    background-image: url("../mytunes_website/fifthpageimage.png");
+
+    background-size: cover;
+}
+.tokentexts
+{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+#giftcardbelowpara1
+{
+    width: 500px;
+}
+#giftcardheading
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+#giftcardbelowpara1
+{
+    font-family: sans-serif;
+    line-height: 1.4;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#giftcardbelowpara2
+{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+hr
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#Redeembutton
+{
+    color:#103063;
+    /* padding: 0px; */
+    margin-top: 30;
+    margin-left: 20px;
+
+}
+#Redeembuttondiv
+{
+    margin-top: 10px;
+}
+/* images */
+#firstpage
+{
+    margin-top: -125px;
+    background-image: url("../mytunes_website/Homeimageitunes.jpeg");
+
+    background-size: cover;
+    width: 100vw;
+}
+#secondpageimagediv
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#secondpageimage
+{
+    background-image: url("../mytunes_website/secondpageimage.png");
+
+    width:1180px ;
+    height:712px ;
+    background-size: cover;
+}
+
+#thirdpageimage
+{
+    background-image: url("../mytunes_website/thirdpageimage.png");
+    width: 1180px;
+    height: 939px;
+    background-size: cover;
+    margin: 50px;
+    margin-top: 0px;
+}
+
+#fourthpage
+{
+    background-image: url("../mytunes_website/skybackgroundmytunes.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    
+}
+#fifthpageimagediv
+{
+    display: flex;
+}
+#fifthpageimg
+{
+    background-image: url("../mytunes_website/fifthpageimage.png");
+
+    width:580px ;
+    height: 394px;
+    background-size: cover;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+
+/* lasttable */
+#sixthpage
+{
+    color: #FFFFFF;
+    background-color: #252529;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid black;
+    min-height: 40vh;
+    min-width: 100vw;
+}
+li
+{
+    list-style-type: none;
+}
+.boldedtextborder
+{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    padding: 15px 15px 0px 0px;
+    border: 0.1px solid rgb(126, 126, 126);
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+#alllist
+{
+    justify-content: space-between ;
+    /* margin: 30px; */
+    display: flex;
+   flex-direction: row;
+   margin-top: 20px; 
+   justify-content: space-between;
+}
+#Copyrightdiv
+{
+ background-color: #333333;
+ height: 40px;
+ width: 100vw;
+ line-height: 20px;
+}
+#Copyright
+{
+    color: #FFFFFF;
+    padding: 5px;
+   text-align: center;
+} 
